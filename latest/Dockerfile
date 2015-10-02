@@ -1,4 +1,4 @@
-FROM henrylle/aspnet5:v5
+FROM microsoft/aspnet:1.0.0.beta7-coreclr
 
 COPY ./AppAutomatedBuild/src/AppAutomatedBuild/ /app
 WORKDIR /app
